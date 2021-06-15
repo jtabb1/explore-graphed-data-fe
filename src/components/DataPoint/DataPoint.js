@@ -65,11 +65,11 @@ function DataPoint({
       </td>
       <td>
       </td> */}
-      <td>
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              {ts}
+      <td className="align-middle">
+        <div className="container align-middle">
+          <div className="row align-middle">
+            <div className="col align-middle">
+              <span className="align-middle">{ts}</span>
             </div>
             <div className="col">
               <form id={id} name={ts} onSubmit={handleSubmitModify}>
