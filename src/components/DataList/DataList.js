@@ -25,9 +25,18 @@ function DataList({ data, dataSeries, onModify, onDelete, setData}) {
         <table className="table table-striped">
           <thead>
             <tr>
-              <th scope="col">Date</th>
-              <th scope="col">Delete</th>
-              <th scope="col">Tasks Per Hour</th>
+              <th scope="col">
+                <div className="container">
+                  <div className="row">
+                    <div className="col">
+                      Date
+                    </div>
+                    <div className="col">
+                      Tasks Per Hour
+                    </div>
+                  </div>
+                </div>
+              </th>
             </tr>
           </thead>
           <tbody>{dataRows}</tbody>
