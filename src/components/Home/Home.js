@@ -12,17 +12,18 @@ function Home() {
   // let g01aH = +g01aHeightScaling * vptH;
 
   return (
-    <div className="container m-5" width="100px">
-      <h1 width="300px">Data To Go:</h1>
-      <p width="300px">
+    <div className="container m-3 w-75 overflow-auto">
+      <br />
+      <h1>Data To Go:</h1>
+      <p className="">
         You now have the ability to view, edit, and populate important 
         business metrics on the go.
       </p>
-      <p width="300px">
-        Choose which metric to get started with:
+      <p>
+        Choose your metric:
       </p>
-      <h3><Link to="/quality">Quality</Link></h3>.
-      <h3><Link to="/quantity">Quantity</Link></h3>.
+      <h3><Link to="/quality">Quality</Link></h3>
+      <h3><Link to="/quantity">Quantity</Link></h3>
     </div>
   )
 }
