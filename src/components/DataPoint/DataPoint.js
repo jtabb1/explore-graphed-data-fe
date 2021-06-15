@@ -75,7 +75,7 @@ function DataPoint({
               <form id={id} name={ts} onSubmit={handleSubmitModify}>
                 <input
                   id={`input-${id}`}
-                  type="text"
+                  type="number"
                   className="form-control"
                   placeholder={val}
                   name="val"
