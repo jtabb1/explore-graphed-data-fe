@@ -19,7 +19,7 @@ function DataList({ data, dataSeries, onModify, onDelete, setData}) {
       <div className="container my-4">
 
         <div className="row">
-          <h3 className="text-center">Delete or Change the data:</h3>
+          <h3 className="text-center">Delete Or Change The Data:</h3>
         </div>
 
         <table className="table table-striped">

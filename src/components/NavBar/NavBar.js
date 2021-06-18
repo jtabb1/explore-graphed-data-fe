@@ -13,7 +13,7 @@ const linkStyles = {
 
 function NavBar() {
   return (
-    <div className="container m-2 my-4">
+    <div className="container my-4">
       <div className="row align-middle">
 
         <div className="col">

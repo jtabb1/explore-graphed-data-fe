@@ -18,7 +18,6 @@ function CreateForm({ data, dataSeries, onCreate, setData }) {
   }
 
   function handleValChange(event) {
-    const vl = parseFloat(event.target.value);
     setFormData({
       ...formData,
       val: parseFloat(event.target.value),
@@ -48,7 +47,7 @@ function CreateForm({ data, dataSeries, onCreate, setData }) {
       <div className="container my-3">
 
         <div className="row">
-          <h3 className="text-center">Enter new data below:</h3>
+          <h3 className="text-center">Enter A New Data Point:</h3>
         </div>
 
         <div className="row">
